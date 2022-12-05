@@ -24,28 +24,28 @@
         android:layout_height="wrap_content"
         android:text="Ударения"
         android:layout_below="@id/toolbarLogin"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="15dp"/>
     <Button
         android:id="@+id/btnTheory2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=" правописание Н и НН в различных частях речи "
         android:layout_below="@id/btnTheory1"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="15dp"/>
     <Button
         android:id="@+id/btnTheory3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Правописание приставок: пре- и при-"
         android:layout_below="@id/btnTheory2"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="15dp"/>
     <Button
         android:id="@+id/btnTheory4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Правописание корней чередованием"
         android:layout_below="@id/btnTheory3"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="15dp"/>
 
     <Button
         android:id="@+id/btnTheory5"
@@ -53,22 +53,22 @@
         android:layout_height="wrap_content"
         android:text="Правописание словарных слов"
         android:layout_below="@id/btnTheory4"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="15dp"/>
     <Button
         android:id="@+id/btnTheory6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Правописание безударных проверяемых гласных "
         android:layout_below="@id/btnTheory5"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="15dp"/>
 
         <Button
             android:id="@+id/btnTheory8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/btnTheory7"
-            android:layout_marginTop="10dp"
-            android:text="hgg" />
+            android:layout_marginTop="15dp"
+            android:text="Паронимы и их значение" />
 
         <Button
         android:id="@+id/btnTheory7"
@@ -76,38 +76,23 @@
         android:layout_height="wrap_content"
         android:text="Правописание НИ и НЕ с различными частями речи"
         android:layout_below="@id/btnTheory6"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="15dp"/>
 
         <Button
         android:id="@+id/btnTheory9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="hgg"
+        android:text="Стили речи"
         android:layout_below="@id/btnTheory8"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="15dp"/>
     <Button
         android:id="@+id/btnTheory10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="hgg"
+        android:text="Средства выразительности"
         android:layout_below="@id/btnTheory9"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="15dp"/>
 
-
-    <Button
-        android:id="@+id/btnTheory11"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="hgg"
-        android:layout_below="@id/btnTheory10"
-        android:layout_marginTop="10dp"/>
-    <Button
-    android:id="@+id/btnTheory12"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="hgg"
-    android:layout_below="@id/btnTheory11"
-    android:layout_marginTop="10dp"/>
 
 
     </LinearLayout>
