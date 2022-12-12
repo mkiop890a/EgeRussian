@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -11,92 +10,96 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbarLogin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.Toolbar.Primary"
-            app:title="Теория"/>
-
-        <Button
-        android:id="@+id/btnTheory1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Ударения"
-        android:layout_below="@id/toolbarLogin"
-        android:layout_marginTop="15dp"/>
-    <Button
-        android:id="@+id/btnTheory2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=" правописание Н и НН в различных частях речи "
-        android:layout_below="@id/btnTheory1"
-        android:layout_marginTop="15dp"/>
-    <Button
-        android:id="@+id/btnTheory3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Правописание приставок: пре- и при-"
-        android:layout_below="@id/btnTheory2"
-        android:layout_marginTop="15dp"/>
-    <Button
-        android:id="@+id/btnTheory4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Правописание корней чередованием"
-        android:layout_below="@id/btnTheory3"
-        android:layout_marginTop="15dp"/>
-
-    <Button
-        android:id="@+id/btnTheory5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Правописание словарных слов"
-        android:layout_below="@id/btnTheory4"
-        android:layout_marginTop="15dp"/>
-    <Button
-        android:id="@+id/btnTheory6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Правописание безударных проверяемых гласных "
-        android:layout_below="@id/btnTheory5"
-        android:layout_marginTop="15dp"/>
-
-        <Button
-            android:id="@+id/btnTheory8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/btnTheory7"
+            app:title="Теория" />
+
+        <Button
+            android:id="@+id/btnTheoryAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbarLogin"
+            android:layout_marginTop="15dp"
+            android:text="Ударения" />
+
+        <Button
+            android:id="@+id/btnTheoryN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnTheoryAccent"
+            android:layout_marginTop="15dp"
+            android:text=" правописание Н и НН в различных частях речи " />
+
+        <Button
+            android:id="@+id/btnTheoryPrefix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnTheoryN"
+            android:layout_marginTop="15dp"
+            android:text="Правописание приставок: пре- и при-" />
+
+        <Button
+            android:id="@+id/btnTheoryUnstressedVerifiable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnTheoryPrefix"
+            android:layout_marginTop="15dp"
+            android:text="Правописание корней чередованием" />
+
+        <Button
+            android:id="@+id/btnTheoryDictionaryWords"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnTheoryUnstressedVerifiable"
+            android:layout_marginTop="15dp"
+            android:text="Правописание словарных слов" />
+
+        <Button
+            android:id="@+id/btnTheoryRoots"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnTheoryDictionaryWords"
+            android:layout_marginTop="15dp"
+            android:text="Правописание безударных проверяемых гласных " />
+
+        <Button
+            android:id="@+id/btnTheoryParonym"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnTheoryRoots"
             android:layout_marginTop="15dp"
             android:text="Паронимы и их значение" />
 
         <Button
-        android:id="@+id/btnTheory7"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Правописание НИ и НЕ с различными частями речи"
-        android:layout_below="@id/btnTheory6"
-        android:layout_marginTop="15dp"/>
+            android:id="@+id/btnTheoryNotAndNeither"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnTheoryParonym"
+            android:layout_marginTop="15dp"
+            android:text="Правописание НИ и НЕ с различными частями речи" />
 
         <Button
-        android:id="@+id/btnTheory9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Стили речи"
-        android:layout_below="@id/btnTheory8"
-        android:layout_marginTop="15dp"/>
-    <Button
-        android:id="@+id/btnTheory10"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Средства выразительности"
-        android:layout_below="@id/btnTheory9"
-        android:layout_marginTop="15dp"/>
+            android:id="@+id/btnTheorySpeechStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnTheoryNotAndNeither"
+            android:layout_marginTop="15dp"
+            android:text="Стили речи" />
 
+        <Button
+            android:id="@+id/btnTheoryMeansOfExpression"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnTheorySpeechStyle"
+            android:layout_marginTop="15dp"
+            android:text="Средства выразительности" />
 
 
     </LinearLayout>
-
 
 
 </ScrollView>

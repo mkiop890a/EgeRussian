@@ -11,11 +11,12 @@ import androidx.fragment.app.Fragment;
 
 import com.example.egerussian.R;
 
-public class Accent extends Fragment {
+public class SpellingFragment extends Fragment {
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.activity_accent, container, false);
-        return v;
+        View view = inflater.inflate(R.layout.fragment_spelling, container, false);
+        return view;
     }
 }

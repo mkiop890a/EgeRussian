@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--словарные слова-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbarLogin"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Словарные слова" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="СЛОВА НА БУКВУ А: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Абажур, аббревиатура, абитуриент, абориген, авангард, авантюра, адаптация, адекватный, адъюнкт, адъютант, ажиотаж, аккомпанировать, аксессуар, аксиома, актуальный, альбатрос, альманах, амбразура, амортизатор, амплитуда, амплуа, ананас, анекдот, аннотация, аномалия, антенна, антракт, аплодисменты, апогей, аппетит, апартаменты, апелляция, априори, аромат, артикуляция, артиллерия, ассамблея, ассортимент, аттестат, аттракцион, афоризм." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ Б: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Багаж, бадминтон, базар, баллон, бандероль, барокко, баррикада, бассейн, беллетристика, берет, берлога, бестселлер, бетон, бечева, биатлон, бильярд, биссектриса, богатство, богатырь, бойкот, браконьер, бриллиант, бронхит, бюллетень." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ В: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Вагон, вакансия, валентность, ватрушка, вегетарианский, велосипед, вельвет, велюр, веранда, вереница, вермишель, вернисаж, вестибюль, ветеран, ветеринар, ветчина, вибрация, винегрет, виолончель, виртуоз, витрина, водевиль, возражать, волейбол." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ Г: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Габарит, галерея, гараж, гармония, гастролёр, генеалогия, генерация, герметизировать, гигиена, гипотеза, гобелен, горизонт, гуманизм, гуттаперча." />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ Д: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Дебаты, дезертир, декларация, деликатес, дельтаплан, демократия, демонстрировать, депутат, десант, детектив, дефицит, диапазон, дивиденд, дилетант, дирижёр, дискуссия, дифирамб, диффузия, довлеть, доминанта, досконально." />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ Ж: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Жакет, жасмин, желатин, жокей, жонглёр. " />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ И: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Игнорировать, идеал, идиллия, идиома, иероглиф, иждивенец, иллюзия, иллюстрация, импрессионизм, ингредиент, инженер, инициатива, интеллектуальный, интеллигентный, инцидент, интрига." />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ К: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Каблук, кавалерия, кавычки, какаду, какофония, каламбур, калейдоскоп, календарь, каллиграфия, каравай, карикатура, карнавал, карьера, катавасия, катаклизм, катастрофа, католик, кафтан, кашемир, кенгуру, керамика, коалиция, коварный, колдовать, колибри, коллега, коллекция, коллизия, комбинезон, комиссия, компетентный, комплимент, компромат, компромисс, конституция, контекст, конфиденциальный, конференция, конфорка, концепция, коралл, коричневый, корифей, корректор, коэффициент." />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ Л: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Лабиринт, лаконизм, ландшафт, лейтмотив, лелеять, либретто, линолеум, лопата, лотерея, лягушка." />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ М: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="мавзолей, магазин, магнитофон, магнитофонный, магнолия, мажорный, майонез, майор, макароны, макулатура, малина, мало-помалу, мальчик, маляр, мандарин, маневрировать, манипуляция, манёвр, маршрут, маскарад, масса, массаж, массив, масштаб, материальный, матч, мачеха, машина, маяк, маяться, маячит, мебель, медаль, медальон." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ Н: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Наваждение, нарцисс, натюрморт, нивелировать, нигилизм, новелла, ноктюрн, ностальгия, нотация." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ О: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Оазис, обелиск, обоняние, оккупация, оппонент, оптимист, оранжерея, оригинальный, ординатура, ореол, ориентир." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ П:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Павильон, палисадник, панорама, пантомима, папоротник, парабола, парадигма, парадокс, парапет, парашют, пародия, пассажир, период, периферия, перпендикуляр, перспектива, пессимист, плагиат, понтон, поролон, презентация, президент, прерогатива, престиж, претендент, претензия, прецедент, привередливый, привилегия, примитивный, приоритет, пропаганда." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ Р: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Рафинад, реабилитация, регалия, регистр, регламент, режиссёр, резиденция, резюме, реквием, реквизит, рекомендовать, ремарка, ремесло, репродукция, респиратор, реставрировать, ресурс, реферат, рецензия, рикошет, риторический, ритуал, рудимент." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ С: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сарафан, сарказм, семантика, семинар, сентиментализм, серенада, сертификат, силуэт, симметричный, симптомы, симулировать, синхронный, сиреневый, сироп, собака, спонтанный, стипендия, стрекоза, суверенитет." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ Т: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Табурет, тамада, тарелка, темперамент, теория, терраса, терцина, трактат, трасса, трафарет, тренер, тренировать, трафарет, триада, троллейбус, тротуар." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ У: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Увертюра, университет, ураган, утилитарный, утрамбовать." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ Ф: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Фабула, фаворит, фатальный, фестиваль, феномен, фиаско, филармония, филателист, фонарь, фонтан, форель, фразеология, фюзеляж." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="СЛОВА НА БУКВУ Х, Ц, Ч, Ш, Э, Ю, Я: "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Хаос, характер, хрестоматия, хризантема, ходатайство, целлофан, целлюлоза, цивилизация, цилиндр, шаблон, шампиньон, шасси, шевелюра, шедевр, шеренга, шероховатый, шоссе, эвкалипт, эволюция, эквивалент, экземпляр, экипировать, эксперимент, экспонат, экстравагантный, экстремальный, элегия, элемент, эликсир, энцефалит, эпатаж, эскалация, эсперанто, эстакада, эшелон, ювелирный, январь, язык, янтарь." />
+
+
+    </LinearLayout>
+
+</ScrollView>

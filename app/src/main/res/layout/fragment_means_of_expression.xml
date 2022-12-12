@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--словарные слова-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbarLogin"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Теория. Средства выразительности." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Тропы (эпитет, гипербола, литота, метафора, метонимия, олицетворение, синекдоха, сравнение, ирония, аллегория, символ)."
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ЭПИТЕТ - эмоционально-красочное определение, несущее особую эмоциональную и смысловую нагрузку. Чаще всего эпитет выражен прилагательным, реже - наречием."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Добрый ветер; живительная влага; робкое дыхание; горящие глаза; дорожная тоска;
+Гордо реет буревестник (М. Горький)
+Лесов таинственная сень / С печальным шумом обнажалась… (А. С. Пушкин)."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ГИПЕРБОЛА - преувеличение размеров или свойств предмета, человека, явления."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Сто лет не виделись.
+Волны вставали горами.
+Я говорил это тысячу раз.
+Это длилось целую вечность.
+Шаровары шириной в Черное море. (Н.Гоголь)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ЛИТОТА – преуменьшение размеров или свойств предмета, человека, явления."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Жизнь человека – один миг.
+Небо с овчинку.
+Мальчик с пальчик.
+Ваш шпиц, прелестный шпиц, не более напёрстка…
+Таракан, таракан, таракашечка, / Жидконогая козявочка-букашечка"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="МЕТАФОРА - скрытое сравнение, перенесение свойств одного предмета или явления на другой на основании общих признаков."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Грустя, и плача, и смеясь, Звенят ручьи моих стихов. (Блок)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="МЕТОНИМИЯ - замена одного слова или выражения другим на основе близости значений."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Тарелку съел;
+У него бойкое перо;
+Весь дом ушел;
+Выпить целый самовар;
+Янтарь на трубках Цареграда, /Фарфор и бронза на столе…
+Вдруг из-за двери в бале зальной/ Фагот и флейта раздались."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="СИНЕКДОХА - вид метонимии, название части вместо целого или наоборот."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+«...и слышно было до рассвета, как ликовал француз...» (Лермонтов).
+Все флаги в гости будут к нам. (Пушкин)
+Слезу пролить над ранней урной. (Пушкин)
+Быть может, в Лете не потонет/ Строфа, слагаемая мной"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ОЛИЦЕТВОРЕНИЕ - наделение неодушевленных предметов свойствами одушевленного."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+О чем ты воешь, ветр ночной, О чем так сетуешь безумно? (Тютчев)
+...Нева всю ночь/ рвалася к морю против бури, /не одолев их буйной дури.../и спорить стало ей не в мочь.. (Пушкин)"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="СРАВНЕНИЕ - уподобление одной ситуации другой, одного явления другому. Сравнение может быть выражено: 1) Сравнительным оборотом с союзами как, точно, словно, будто, как будто; 2) сравнительной конструкцией со словами похожий, подобный, вроде; 3) существительным в творительным падеже; 4) Сравнительной степенью прилагательного или наречия;"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Глаза, как океаны;
+Мои стихи бегут, как ручьи;
+Лентой бархатной чернеет / Груда вспаханной земли."
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ИРОНИЯ - явно-притворное изображение отрицательного явления в положительном виде (под видом похвалы скрывается насмешка, за большим и значительным угадывается умаление)."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Едва ли кто польстится на такую красавицу.
+ Откуда, умная, бредешь ты, голова? Крылов. (слова лисицы ослу)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="СИМВОЛ - многозначное иносказание, изображающее отвлеченное понятие или явление через похожий конкретный образ."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Черный вран, свистя крылом,/ Вьется над санями; /Ворон каркает: печаль! (Черный ворон — фольклорная аллегория несчастья)(Жуковский)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="АЛЛЕГОРИЯ -  однозначное (в отличие от символа), легко узнаваемое иносказание, закрепленное традицией, условно изображающее отвлеченное понятие или явление через похожий конкретный образ.  "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Чаще всего аллегория встречается в баснях, притчах, сказках. Так, лиса в басне воплощает хитрость, волк — жестокость,"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Синтаксические средства (вводные слова и словосочетания, восклицательные и вопросительные предложения, неполные предложения, обращения, сравнительные обороты, ряды однородных членов предложения, риторические вопросы, риторические обращения, односоставные предложения)"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="РИТОРИЧЕСКИЙ ВОПРОС / ВОСКЛИЦАНИЕ / ОБРАЩЕНИЕ - вопрос, восклицание, обращение, не имеющие адресата."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Отчего мне так грустно, береза?
+Здравствуй, солнышко!
+Что за люди!
+Обманчивей и снов надежды. /Что слава? шепот ли чтеца? /Гоненье ль низкого невежды? /Иль восхищение глупца? (Пушкин)
+Русь! Русь! Вижу тебя, из моего чудного, прекрасного далека тебя вижу... (Гоголь)
+Неужели любовь, святая, преданная любовь не всесильна? (Тургенев)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ОДНОРОДНЫЕ ЧЛЕНЫ ПРЕДЛОЖЕНИЯ / РЯДЫ ОДНОРОДНЫХ ЧЛЕНОВ - слова одной и той же части речи, относящиеся к одному слову и отвечающие на один вопрос."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+А и на этом месте стояли прежде и перестояли революцию дремучие, непрохожие леса. (Солженицын)
+Лесной перегной и мох впитывают этот дождь не торопясь, основательно.
+Лай, хохот, пенье, свист и хлоп, Людская молвь и конский топ. (Пушкин)
+Смотрите ж, дети, на него: Как он угрюм, и худ, и бледен! (Лермонтов)
+Молчи, скрывайся и таи И чувства и мечты свои... (Тютчев)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ВВОДНЫЕ СЛОВА/СЛОВОСОЧЕТАНИЯ - слова, словосочетания, не входящие в структуру предложения (к ним нельзя задать вопрос), выражающие отношение говорящего к высказыванию. В предложении выделяются запятыми."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+К сожалению, все оказалось ложью.
+По-моему, ты не понимаешь меня.
+Он, видимо, думает об экзамене."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ВОПРОСИТЕЛЬНЫЕ ПРЕДЛОЖЕНИЯ - предложения, в которых выражается стремление говорящего узнать что-либо / удостовериться в чем-либо. В конце любого вопросительного предложения есть знак "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Как дела?
+О чем ты говоришь?
+Вам нравится этот спектакль?"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ВОСКЛИЦАТЕЛЬНЫЕ ПРЕДЛОЖЕНИЯ - эмоционально-окрашенные предложения, произносимые с восклицательной интонацией."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Какой чудесный день!
+Как хорошо в поле!"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="НЕПОЛНЫЕ ПРЕДЛОЖЕНИЯ - это синтаксические конструкции, допускающие пропуск одного или нескольких компонентов, известных или подразумеваемых из ближайшего контекста или ситуации; отсутствующими могут быть как главные, так и второстепенные члены предложения.  "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Пример:
+    Калиныч стоял ближе к природе. Хорь же – к людям (Тургенев). "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ОБРАЩЕНИЯ - слова или сочетания слов, используемые для называния лиц или предметов, к которым обращена речь. Обращения выделяются запятыми, также после обращения, произнесенного с восклицательной интонацией ставится восклицательный знак"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Антон, что ты делаешь?
+Вера, скажи мне правду.
+О, скоро ли, мой друг, настанет срок разлуки? (Пушкин)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="СРАВНИТЕЛЬНЫЕ ОБОРОТЫ - сопоставление предметов и явлений по принципу сходства, которое выражается при помощи союзов подчинительных союзов как, точно, словно, будто, как будто, что, чем, нежели."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Сестрица ваша играет вами, как мячиком (Фонвизин)
+Мчат, как будто на крылах, / Санки кони рьяны...(Жуковский)
+Как стих без мысли в песне модной. Дорога зимняя гладка. (Пушкин)
+Словно ястреб взглянул с высоты небес / На младого голубя сизокрылого... (Лермонтов)"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Приёмы (анафора, эпифора, антитеза, вопросно-ответная форма изложения, градация, инверсия, лексический повтор, цитирование, диалог, парцелляция, синтаксический параллелизм, оксюморон)"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="АНАФОРА - единоначатие, повторение начальных слов, строк или фраз."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Наше оружие — наши песни, / Наше золото — звенящие голоса.
+Это – круто налившийся свист, / Это – щёлканье сдавленных льдинок, / Это – ночь, леденящая лист, / Это – двух соловьёв поединок."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ЭПИФОРА - повторение одного и того же слова, фразы в конце отрезка речи."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Мне бы хотелось знать, отчего я титулярный советник? Почему именно титулярный советник?
+Это есть художник Альтман, очень старый человек. По-немецки значит Альтман — очень старый человек.  "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="АНТИТЕЗА - противопоставление."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Полюбил богатый—бедную, / Полюбил ученый—глупую, / Полюбил румяный—бледную, / Полюбил хороший—вредную."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ОКСЮМОРОН - сочетание несовместимого."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Смотри, ей весело грустить.
+Убогая роскошь.
+Горячий снег.
+Жар холодных числ. (А. Блок) "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ГРАДАЦИЯ - последовательное нагнетание или ослабление сравнений, образов, эпитетов, метафор."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Не жалею, не зову, не плачу, / Все пройдет, как с белых яблонь дым.
+Все грани чувств, все грани правды стерты: / В мирах, в годах, в часах.
+Но чернеют пламенные дали — / Не уйти, не встать и не вздохнуть.
+Поежился, с задавленной тоской оглядел чавкающих, хлюпающих, жрущих людей. (Шолохов)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ИНВЕРСИЯ - нарушение порядка слов в предложении. Приблизительная норма: обстоятельство места или времени (ко всему предложению) + определение + подлежащее + обстоятельство образа действия + сказуемое + дополнение + обстоятельство."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+И томных дев устремлены/На вас внимательные очи (А. С. Пушкин).
+Швейцара мимо он стрелой (Пушкин)
+Над ухом шепчет голос нежный, / И змейкой бьется мне в лицо / Ее волос, моей небрежной / Рукой измятое, кольцо (Полонский)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ЛЕКСИЧЕСКИЙ ПОВТОР - повторение одного и того же слова. Средство связи в тексте между предложениями."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Это еще не сказка. Сказка только начинается.
+Мне опостылели слова, слова, слова (А. Тарковский)"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="СИНТАКСИЧЕСКИЙ ПАРАЛЛЕЛИЗМ - тождественное или сходное расположение элементов речи в смежных частях текста."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Летал сокол по небу, гулял молодец по свету.
+Утихает светлый ветер, Наступает серый вечер…
+...Старика разорит на подарки, В сердце юноши кинет любовь. (Некрасов)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ПАРЦЕЛЛЯЦИЯ - авторское членение текста (расчленение фразы на части или на отдельные слова)."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Я! Говорю! Хватит!
+Я думаю. Что вы не правы.
+Некто четвертый – это мой страх. Он сидит во мне. Он правит мной. Подсказывает. Корректирует. Вымогает. Удерживает. Бросает в дрожь.
+...Но идет... Шатается... Одна (Ахматова)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ВОПРОСНО-ОТВЕТНАЯ ФОРМА - текст, представленный в виде риторических вопросов и ответов на них."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+«Для чего нужны книги? Книги нужны, чтобы развиваться, узнавать что-то новое.»
+"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="НЕОЛОГИЗМ — новое, не так давно вошедшее в язык слово или словосочетание. Неологизмы появляются в языке в двух случаях: 1) возникают для обозначения новых, ранее не существовавших предметов, явлений, понятий; 2) вводятся писателямию"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Наибольшее количество неологизмов, укоренившихся в русском литературном языке, ввел Николай Михайлович Карамзин, стоявший у истоков его формирования («благотворительность», «будущность», «влияние», «влюблённость», «вольнодумство», «гармония», «достопримечательность», «занимательный», «катастрофа», «моральный», «ответственность», «первоклассный», «подозрительность», «промышленность», «сосредоточить», «сцена», «трогательный», «утончённость», «человечный», «эстетический», «эпоха»"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ЦИТИРОВАНИЕ - слова, строки, отрывки из других произведений, включенные в текст."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Сократ вывел формулу «ума» и «глупости», до сих пор непревзойденную: «Я знаю, что ничего не знаю, а другие не знают даже этого».
+«Ты нас одних в младой душе носил / И повторял: “На долгую разлуку /Нас тайный рок, быть может, осудил!”» (Пушкин)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ДИАЛОГ - разговор двух или более героев повествования."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Пример:
+Он молчал. Мария Петровна, тоже помолчав, вдруг спросила робко:
+- Скажи, Паша, хоть капелька моей доли есть в твоей работе? Хоть что-нибудь...
+- Мария Петровна, что вы говорите? - в замешательстве забормотал он. - Если бы не вы!...(Бондарев)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Лексические средства выразительности (синонимы, антонимы, фразеологизмы, разговорная и просторечная лексика, книжная лексика, оценочная лексика, диалектизмы, устаревшая лексика, неологизмы, термины)"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="АНТОНИМЫ - слова, противоположные по значению. "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+День – ночь; умный – глупый; интересный - скучный; сильный - слабый
+Бичуя маленьких воришек /Для удовольствия больших, /Дивил я дерзостью мальчишек /И похвалой гордился их. (Некрасов)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="КОНТЕКСТНЫЕ АНТОНИМЫ - слова, противоположные по значению только в пределах контекста."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+«Я глупая, а ты умён. Живой, а я остолбенелая.»"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="СИНОНИМЫ - слова, различные по написанию, но близкие по значению."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+«Путь» -«дорога»; «говорить» – «болтать»; «мужественный» -«смелый», страшиться - пугаться
+"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="КОНТЕКСТНЫЕ СИНОНИМЫ - слова, близкие по значению только в пределах контекста."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:Насчет главного предмета Чичиков выразился очень осторожно: никак не назвал души умершими, а только несуществующими. (Гоголь)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ДИАЛЕКТИЗМЫ - слово или оборот, употребляющийся в определенной местности."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Петух – кочет, балка – овраг, свекла – буряк, кушак – пояс, голицы – рукавицы, худой - плохой"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ЖАРГОНИЗМЫ - речь социальной группы, отличная от общего языка."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Предки – родители, хвост (несданный экзамен/слежка), общага - общежитие
+"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ПРОФЕССИОНАЛИЗМЫ - слова, употребляющиеся только в определенной профессиональной среде. "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Абсцисса (математика), аффрикаты (лингвистика), штурвал, каюта (морская терминология)."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ТЕРМИНЫ - слова, обозначающие специальные понятия в науке, технике."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Суффикс, метафора, гипотенуза."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="КНИЖНАЯ ЛЕКСИКА - слова, которые употребляются преимущественно в письменной речи."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Гипотеза, воздвигнуть, низвергнуть, генезис, адресат, аргументировать, аналогичный, дифференцировать, гуманизм,"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="РАЗГОВОРНАЯ ЛЕКСИКА - слова, которые употребляются в повседневной обиходной речи. "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Белобрысый, жвачка, грязища, работяга, многовато, этакий, ерунда, читалка.
+"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ПРОСТОРЕЧНАЯ ЛЕКСИКА - слова, характеризующиеся упрощенностью, оттенком грубости, обычно служащие для резких оценок. "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Вовнутрь, задаром, навряд, намедни, покамест, умаяться, навалом, ляпнуть, белиберда, артачиться, работяга, башковитый."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ЭМОЦИОНАЛЬНО - ЭКСПРЕССИВНАЯ ЛЕКСИКА - слова, которые носят оценочный характер. "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Детина, бабуля, солнышко, близехонько, восхитительный, чудесный, малевать, подхалим, малюсенький, мордашка.
+"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="АРХАИЗМЫ - устаревшее слово или оборот речи. "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Очи (глаза), чело (лоб), отроковица (подросток), зерцало (зеркало), штиль (стиль), пиит (поэт).  "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ИСТОРИЗМЫ - слова, вышедшие из употребления в связи с исчезновением предмета или явления, которое они обозначали. "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Лакей, треуголка, зипун, грош, боярин, царь, волость."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ЗАИМСТВОВАННЫЕ СЛОВА - слова, пришедшие в русский язык из других языков. "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Латте, вуаль, такси, ландшафт, либретто, соната, трюмо, афиша
+"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ФРАЗЕОЛОГИЗМЫ - лексически неделимые, устойчивые словосочетания. "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Авгиевы конюшни, манна небесная, зарубить на носу, реветь белугой, задеть за живое, стреляный воробей, спустя рукава.
+Любезнейший! ты не в своей тарелке. (Грибоедов)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text=" Фонетические средства (ассонанс, аллитерация, звукоподражание)"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="АЛЛИТЕРАЦИЯ - стилистический прием, при котором повторяются согласные."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Свищет ветер, серебряный ветер в шёлковом шелесте снежного шума.
+Нева вздувалась и ревела, / Котлом клокоча и клубясь… (Пушкин)"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="АССОНАНС - повтор одинаковых или похожих гласных звуков."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+Мело, мело по всей земле во все пределы. Свеча горела на столе, свеча горела. (ассонанс на е).
+В соседнем доме окна жолты… (Блок)
+Жук жужжал. Уж расходились хороводы; Уж за рекой...(Пушкин)"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="ЗВУКОПОДРАЖАНИЕ - воспроизведение природного звучания какими - либо напоминающими его звуками."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Примеры:
+мяу-мяу, ха-ха, тик-так, ква-ква
+«Трах - так - так! — И только эхо откликается в домах...» (Блок)"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -11,11 +11,11 @@ import androidx.fragment.app.Fragment;
 
 import com.example.egerussian.R;
 
-public class Prefix extends Fragment {
+public class NotAndNeitherFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.activity_prefix, container, false);
+        View v = inflater.inflate(R.layout.fragment_not_and_neither, container, false);
         return v;
     }
 }

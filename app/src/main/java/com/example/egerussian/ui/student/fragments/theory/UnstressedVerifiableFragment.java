@@ -11,11 +11,11 @@ import androidx.fragment.app.Fragment;
 
 import com.example.egerussian.R;
 
-public class SpeechStyle extends Fragment {
+public class UnstressedVerifiableFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.activity_speech_stule, container, false);
-          return v;
+        View v = inflater.inflate(R.layout.fragment_unstressed_verifiable, container,false);
+        return  v;
     }
 }

@@ -11,11 +11,11 @@ import androidx.fragment.app.Fragment;
 
 import com.example.egerussian.R;
 
-public class MeansOfExpression extends Fragment {
+public class AccentFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-    View v = inflater.inflate(R.layout.activity_means_of_expression, container, false);
-     return v;
+        View v = inflater.inflate(R.layout.fragment_accent, container, false);
+        return v;
     }
 }

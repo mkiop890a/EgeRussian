@@ -11,11 +11,11 @@ import androidx.fragment.app.Fragment;
 
 import com.example.egerussian.R;
 
-public class DictionaryWords extends Fragment {
+public class PrefixFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.activity_dictionary_words, container, false);
-        return  v;
+        View v = inflater.inflate(R.layout.fragment_prefix, container, false);
+        return v;
     }
 }

@@ -11,11 +11,11 @@ import androidx.fragment.app.Fragment;
 
 import com.example.egerussian.R;
 
-public class NotAndNeither extends Fragment {
+public class SpeechStyleFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.activity_not_and_neither, container, false);
-        return v;
+        View v = inflater.inflate(R.layout.fragment_speech_style, container, false);
+          return v;
     }
 }

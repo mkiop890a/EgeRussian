@@ -11,11 +11,11 @@ import androidx.fragment.app.Fragment;
 
 import com.example.egerussian.R;
 
-public class UnstressedVerifiable extends Fragment {
+public class ParonymFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.activity_unstressed_verifiable, container,false);
-        return  v;
+       View v = inflater.inflate(R.layout.fragment_paronym, container, false);
+       return v;
     }
 }

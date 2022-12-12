@@ -15,18 +15,109 @@
         android:id="@+id/navigation_tests"
         android:name="com.example.egerussian.ui.student.fragments.tests.TestsFragment"
         android:label="fragment_theory"
-        tools:layout="@layout/fragment_theory" />
+        tools:layout="@layout/fragment_tests" />
 
-    <fragment android:id="@+id/navigation_theory"
-        android:label="fragment_theory"
+    <fragment
+        android:id="@+id/navigation_theory"
         android:name="com.example.egerussian.ui.student.fragments.theory.TheoryFragment"
-        tools:layout="@layout/fragment_theory" />
+        android:label="fragment_theory"
+        tools:layout="@layout/fragment_theory">
+        <action
+            android:id="@+id/action_navigation_theory_to_accentFragment"
+            app:destination="@id/accentFragment" />
+        <action
+            android:id="@+id/action_navigation_theory_to_spellingFragment"
+            app:destination="@id/spellingFragment" />
+        <action
+            android:id="@+id/action_navigation_theory_to_prefixFragment"
+            app:destination="@id/prefixFragment" />
+        <action
+            android:id="@+id/action_navigation_theory_to_unstressedVerifiableFragment"
+            app:destination="@id/unstressedVerifiableFragment" />
+        <action
+            android:id="@+id/action_navigation_theory_to_dictionaryWordsFragment"
+            app:destination="@id/dictionaryWordsFragment" />
+        <action
+            android:id="@+id/action_navigation_theory_to_rootsFragment"
+            app:destination="@id/rootsFragment" />
+        <action
+            android:id="@+id/action_navigation_theory_to_paronymFragment"
+            app:destination="@id/paronymFragment" />
+        <action
+            android:id="@+id/action_navigation_theory_to_notAndNeitherFragment"
+            app:destination="@id/notAndNeitherFragment" />
+        <action
+            android:id="@+id/action_navigation_theory_to_speechStyleFragment"
+            app:destination="@id/speechStyleFragment" />
+        <action
+            android:id="@+id/action_navigation_theory_to_meansOfExpressionFragment"
+            app:destination="@id/meansOfExpressionFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_profile"
         android:name="com.example.egerussian.ui.student.fragments.profile.ProfileFragment"
         android:label="ProfileFragment"
-        tools:layout="@layout/fragment_profile"/>
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/accentFragment"
+        android:name="com.example.egerussian.ui.student.fragments.theory.AccentFragment"
+        android:label="AccentFragment"
+        tools:layout="@layout/fragment_accent" />
+
+    <fragment
+        android:id="@+id/spellingFragment"
+        android:name="com.example.egerussian.ui.student.fragments.theory.SpellingFragment"
+        android:label="SpellingFragment"
+        tools:layout="@layout/fragment_spelling" />
+
+    <fragment
+        android:id="@+id/prefixFragment"
+        android:name="com.example.egerussian.ui.student.fragments.theory.PrefixFragment"
+        android:label="PrefixFragment"
+        tools:layout="@layout/fragment_prefix" />
+
+    <fragment
+        android:id="@+id/unstressedVerifiableFragment"
+        android:name="com.example.egerussian.ui.student.fragments.theory.UnstressedVerifiableFragment"
+        android:label="UnstressedVerifiableFragment"
+        tools:layout="@layout/fragment_unstressed_verifiable" />
+
+    <fragment
+        android:id="@+id/dictionaryWordsFragment"
+        android:name="com.example.egerussian.ui.student.fragments.theory.DictionaryWordsFragment"
+        android:label="DictionaryWordsFragment"
+        tools:layout="@layout/fragment_dictionary_words" />
+
+    <fragment
+        android:id="@+id/rootsFragment"
+        android:name="com.example.egerussian.ui.student.fragments.theory.RootsFragment"
+        android:label="RootsFragment"
+        tools:layout="@layout/fragment_roots" />
+
+    <fragment
+        android:id="@+id/paronymFragment"
+        android:name="com.example.egerussian.ui.student.fragments.theory.ParonymFragment"
+        android:label="ParonymFragment"
+        tools:layout="@layout/fragment_paronym" />
+
+    <fragment
+        android:id="@+id/notAndNeitherFragment"
+        android:name="com.example.egerussian.ui.student.fragments.theory.NotAndNeitherFragment"
+        android:label="NotAndNeitherFragment"
+        tools:layout="@layout/fragment_not_and_neither" />
+
+    <fragment
+        android:id="@+id/speechStyleFragment"
+        android:name="com.example.egerussian.ui.student.fragments.theory.SpeechStyleFragment"
+        android:label="SpeechStyleFragment"
+        tools:layout="@layout/fragment_speech_style" />
+    <fragment
+        android:id="@+id/meansOfExpressionFragment"
+        android:name="com.example.egerussian.ui.student.fragments.theory.MeansOfExpressionFragment"
+        android:label="MeansOfExpressionFragment"
+        tools:layout="@layout/fragment_means_of_expression"/>
 
 
 </navigation>

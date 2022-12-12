@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbarLogin"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Правописание НИ и НЕ" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="СЛИТНОЕ И РАЗДЕЛЬНОЕ НАПИСАНИЕ НЕ"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="НЕ пишется слитно:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Cо всеми словами, которые не употребляются без не: неряха, невзрачный, ненавидеть, негодуя;"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. C существительными, полными и краткими прилагательными, наречиями на -о, которые можно заменить синонимом без не: неприятель (враг), неплохой (хороший), невысок (низок), недалеко (близко);"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. C полными причастиями, не имеющими зависимых слов: неподстриженные кустарники, нераспечатанное письмо;"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. В неопределенных и отрицательных местоимениях без предлога: некто, нечто, некоторый, некого, нечего;"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. В отрицательных наречиях: негде, некуда, некогда, неоткуда, незачем;"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. В приставке недо- с глаголами, прилагательными и существительными: суп недосолили, за ребенком недосмотрели."
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Внимание! Следует отличать приставку недо- от сочетания частицы не со словами с приставкой: Так мы и не достали билетов на премьеру. Зрители не досмотрели спектакль до конца."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="НЕ пишется раздельно:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. C глаголами, деепричастиями и краткими причастиями (за исключением тех, которые без не не употребляются): не спешить, не спеша, не стрижены (но: ненавидеть, недоумевая);"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. C краткими прилагательными с оттенком долженствования: не рад, не должен, не согласен, не намерен, а также в наречии не замужем;"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. С прилагательными и наречиями в сравнительной степени: не выше, не умнее, не красивее; с не меньшим (успехом);"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. С числительными: не один, не пятьдесят, не двое, не первый;"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. С наречиями-сказуемыми в безличном предложении: не жаль, не поздно, не жарко;"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. с полными причастиями, если при них есть зависимые слова: не сделанное вовремя задание, так и не сыгранная музыкальная пьеса;"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Со всеми частями речи, если к ним относится противопоставление с союзом а: не длинный, а короткий; не высок, а низок; не стриженый, а бритый."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Внимание! Прилагательные или наречия на -о, связанные противительным союзом но, пишутся с не слитно, если противопоставляются разные признаки: недорогой, но красивый костюм; негромко, но выразительно."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="с существительными, прилагательными, наречиями на -о, если при них есть местоимение или наречие с ни или если не входит в состав усилительных отрицаний далеко не, вовсе не, отнюдь не: ничуть не красивый, отнюдь не дешево."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Внимание! С причастиями (если при них нет других зависимых слов), прилагательными, наречиями на -о не пишется слитно, если к ним относятся слова совсем, совершенно, очень, весьма, крайне, чрезвычайно и т. д., которые усиливают степень качества: совсем непростое решение, поступить крайне неосторожно, весьма непродуманное предложение. Но: совершенно не продуманное комиссией предложение."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Не пишется раздельно в отрицательных местоимениях с предлогами: не с кем, не для кого, не от кого, не для чего, не с чем."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Правописание частицы НИ"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Частица НИ  употребляется:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="для усиления отрицания, выраженного глаголом с частицей не: В письме не было ни слова о любви. В доме ни звука. — В этом предложении отрицание опущено."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Внимание! От подобных предложений надо отличать предложения с двойным отрицанием — в первой и во второй частях составного сказуемого: не мог не знать (т. е. должен был знать), нельзя не признаться (надо признаться)."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="при союзных словах, связывающих придаточные предложения уступки с главными. При этом придаточные предложения имеют обобщающий характер, усиливают утверждение: Куда он только ни обращался, все напрасно. Как он ни старался, все равно опоздал."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Внимание! От рассмотренных предложений с частицей ни следует отличать:"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Придаточные времени с союзом пока не: Ешь, пока не наешься. Гуляй, пока не стемнеет. "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Сложноподчинённое предложение, в котором главная и придаточная часть содержат отрицание: Нет такой музыки, которую он не сумел бы сыграть. Но: Все у нее получается, за что бы она ни принималась. "
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Восклицательные и вопросительные предложения с частицей не (часто в сочетании с частицей только): Где он только не был! Чего он только не придумал за эти дни!"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. В устойчивых словосочетаниях: кто бы то ни был (любой), ни жив ни мертв, ни дать ни взять, ни рыба ни мясо, ни свет ни заря, во что бы то ни стало, откуда ни возьмись, как ни в чем не бывало."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Во всех указанных выше случаях ни пишется раздельно."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="В отрицательных и неопределенных местоимениях и отрицательных наречиях под ударением пишется не, без ударения — ни: никто — некто, ничто — нечто, никогда — некогда; ни у кого — не у кого, ни с чего — не с чего."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Ни в сочетаниях никто иной и ничто иное пишется слитно: Решение не должно приниматься никем иным. Ничто иное его не интересовало."
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Внимание! Не в сочетаниях не кто иной, как и не что иное, как пишется раздельно: Это был не кто иной, как Дед Мороз. И она, представьте себе, увлеклась не кем иным, как этим странным человеком. Это было не что иное, как шаровая молния."
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</ScrollView>
