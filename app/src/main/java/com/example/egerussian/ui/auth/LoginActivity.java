@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
+import android.widget.RelativeLayout;
 
 import com.example.egerussian.R;
 import com.example.egerussian.ui.student.StudentActivity;
@@ -22,7 +23,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         Button btnLogin = findViewById(R.id.btnLogin);
-
+        Button btnRegister = findViewById(R.id.btnRegister);
         textEmail = findViewById(R.id.loginEditText);
         textPassword = findViewById(R.id.textInputLayoutPassword);
 
@@ -42,6 +43,9 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(nameIntent);
 
         });
+
+        btnRegister.setOnClickListener(v -> startActivity(new Intent(this, RegisterActivity.class)));
+
     }
 
     private boolean validateFields(String email, String password){
