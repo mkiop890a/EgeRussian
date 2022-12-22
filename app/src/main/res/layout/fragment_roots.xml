@@ -17,6 +17,14 @@
             android:layout_height="wrap_content"
             app:title="Корни проверяемыми гласными" />
 
+        <ImageView
+            android:id="@+id/StyleImage"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/cat4"
+            android:scaleType="centerCrop"
+            android:layout_below="@id/toolbarLogin"/>
+
 
         <TextView
             android:layout_width="wrap_content"
