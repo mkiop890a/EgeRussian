@@ -75,7 +75,7 @@
             android:id="@+id/btnTestParonym"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Паронимы и их значение"
+        android:text="Паронимы"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="15dp"
         android:layout_marginStart="15dp"/>
