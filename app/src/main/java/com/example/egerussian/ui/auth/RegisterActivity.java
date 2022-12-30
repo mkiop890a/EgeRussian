@@ -8,6 +8,7 @@ import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 
 import com.example.egerussian.R;
 import com.google.android.material.appbar.MaterialToolbar;
@@ -17,6 +18,9 @@ import com.google.android.material.textfield.TextInputLayout;
 import java.util.SplittableRandom;
 
 public class RegisterActivity extends AppCompatActivity {
+
+    TextInputLayout textEmailTwo;
+    TextInputLayout textPasswordTwo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,5 +83,10 @@ public class RegisterActivity extends AppCompatActivity {
        });
 
     }
+
+
+    Button btnRegister = findViewById(R.id.btnRegisterTwo);
+
+
 
 }
