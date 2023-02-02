@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
-import android.widget.RelativeLayout;
 
 import com.example.egerussian.R;
 import com.example.egerussian.ui.student.StudentActivity;
+import com.example.egerussian.ui.teacher.theory.TheoryTeacher;
 import com.example.egerussian.utils.TextValidator;
 import com.google.android.material.textfield.TextInputLayout;
 

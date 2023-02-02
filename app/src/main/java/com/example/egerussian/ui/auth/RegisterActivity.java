@@ -76,16 +76,11 @@ public class RegisterActivity extends AppCompatActivity {
 
                }
 
-
-
-
            }
        });
 
     }
 
-
-    Button btnRegister = findViewById(R.id.btnRegisterTwo);
 
 
 
