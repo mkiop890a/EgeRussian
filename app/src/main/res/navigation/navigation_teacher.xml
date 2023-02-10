@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_teacher"
+    app:startDestination="@id/navigation_home_teacher">
+
+
+    <fragment
+        android:id="@+id/navigation_home_teacher"
+        android:name="com.example.egerussian.ui.teacher.home.HomeFragment"
+        android:label="Главная"
+        tools:layout="@layout/fragment_home_teacher" />
+
+    <fragment
+        android:id="@+id/navigation_tests_teacher"
+        android:name="com.example.egerussian.ui.teacher.test.TestFragment"
+        android:label="fragment_theory"
+        tools:layout="@layout/fragment_test_teacher" />
+
+    <fragment
+        android:id="@+id/navigation_theory_teacher"
+        android:name="com.example.egerussian.ui.teacher.theory.TheoryFragmentTeacher"
+        android:label="fragment_theory"
+        tools:layout="@layout/fragment_theory_teacher">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile_teacher"
+        android:name="com.example.egerussian.ui.teacher.profile.ProfileFragment"
+        android:label="ProfileFragment"
+        tools:layout="@layout/fragment_profile_teacher" />
+
+</navigation>

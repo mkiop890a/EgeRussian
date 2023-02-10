@@ -2,6 +2,7 @@ package com.example.egerussian.ui.auth;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
@@ -11,6 +12,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 
 import com.example.egerussian.R;
+import com.example.egerussian.ui.student.StudentActivity;
+import com.example.egerussian.ui.teacher.TeacherActivity;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.textfield.MaterialAutoCompleteTextView;
 import com.google.android.material.textfield.TextInputLayout;
@@ -37,6 +40,7 @@ public class RegisterActivity extends AppCompatActivity {
         MaterialAutoCompleteTextView autoTextViewWhoAreYou = findViewById(R.id.autoTextViewWhoAreYou);
         TextInputLayout textInputLayoutClass = findViewById(R.id.textInputLayoutClass);
         TextInputLayout textInputLayoutSchool = findViewById(R.id.textInputLayoutSchool);
+        Button btnRegisterTwo = findViewById(R.id.btnRegisterTwo);
 
 
         toolbarLogin.setNavigationOnClickListener(v -> onBackPressed());
@@ -78,6 +82,24 @@ public class RegisterActivity extends AppCompatActivity {
 
            }
        });
+
+
+       btnRegisterTwo.setOnClickListener(v -> {
+           String typeUser = textInputLayoutWhoAreYou.getEditText().getText().toString();
+
+           if(typeUser.equals("Ученик")) {
+               Intent goToStudent = new Intent(RegisterActivity.this, StudentActivity.class);
+               startActivity(goToStudent);
+           }
+
+           if(typeUser.equals("Учитель")) {
+               Intent goToTeacher = new Intent(RegisterActivity.this, TeacherActivity.class);
+               startActivity(goToTeacher);
+           }
+
+
+       });
+
 
     }
 

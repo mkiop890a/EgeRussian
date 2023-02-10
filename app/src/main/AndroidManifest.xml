@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EgeRUssian"
         tools:targetApi="31">
+
+        <activity android:name=".ui.teacher.TeacherActivity" />
+
         <activity
             android:name=".ui.student.StudentActivity"
             android:exported="false"
